@@ -73,8 +73,8 @@ public class FileUploadController {
 						+ serverFile.getAbsolutePath());*/
 			    
 			    
-			    AWSCredentials credentials = new BasicAWSCredentials("AKIAIO62HKXVYZYS2ZAA",
-						"Vk4MGyg8ks2dk+ep9e8cDWudpAobcXF5cN6BUi+V");
+			    AWSCredentials credentials = new BasicAWSCredentials("",
+						"");
 
 				// create a client connection based on credentials
 				AmazonS3 s3client = new AmazonS3Client(credentials);
